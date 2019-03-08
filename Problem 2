@@ -1,0 +1,37 @@
+//This program is for scientific purposes.
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main ()
+{
+	cout << "\t \t \t All About Volumes" << endl;
+
+	cout << " " << endl;
+
+	int mass;
+	int density;
+	
+
+	cout << "Input the Mass (in grams) here" << endl;
+	cin >> mass;
+	double mass = mass / 4.00;
+
+	cout << " " << endl;
+
+	cout << "Input the Density (in grams per cumbic centimeters) here" << endl;
+	cin >> density;
+	
+
+	cout << " " << endl;
+
+	
+	double volume = (mass / density);
+	cout << "Total Volume = " << volume << endl;
+
+
+	_getch;
+	return 0;
+}
